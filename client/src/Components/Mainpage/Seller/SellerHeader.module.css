@@ -1,0 +1,47 @@
+.header {
+  background-color: #f4f4f4; /* Header background color */
+  padding: 20px;
+  border-bottom: 1px solid #ddd; /* Border below header */
+}
+
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav {
+  flex-grow: 1;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start; /* Align items to the start */
+}
+
+.nav li {
+  margin-right: 20px; /* Space between nav items */
+}
+
+.navLink {
+  background: none;
+  border: none;
+  color: #007bff; /* Link color */
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: underline; /* Optional: underline links */
+}
+
+.profile {
+  padding: 10px;
+  background-color: #fff; /* Profile section background color */
+  border: 1px solid #ddd; /* Border around profile section */
+}

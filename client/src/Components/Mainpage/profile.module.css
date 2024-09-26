@@ -1,0 +1,60 @@
+/* General styles for the user profile page */
+.userProfile {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.userProfile h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.profileInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.profileInfo p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.profileInfo strong {
+    color: #555;
+}
+
+/* Styles for the loading state */
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 20px;
+    color: #888;
+}
+
+/* Styles for the error state */
+.error {
+    color: #d9534f;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+}
+
+/* Styles for when no profile data is available */
+.noProfile {
+    color: #5bc0de;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+}
